@@ -1,0 +1,51 @@
+/* styles for all instances of the same element*/
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #F4ECD9;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+li a {
+    padding: .2rem;
+}
+
+
+li a:hover {
+    border-bottom: 1px solid #FFF;
+}
+
+
+/* header styles */
+/* .main--header {
+    background: #6F263D;
+} */
+
+#bu-main-menu{
+    color: #FFF;
+}
+
+/* main-content styles */
+
+
+/* footer styles */
+#footer {
+    background: #6F263D;
+}
