@@ -55,6 +55,7 @@ const addReportImage3 = (event) => {
 }
 const addReportImage4 = (event) => {
     image.src = "/images/150_report.jpg";
+    image.className = `${image.className} restrict-height`
     reportContentArea.innerHTML = "";
     reportContentArea.appendChild(image);
 }

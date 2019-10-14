@@ -2,8 +2,9 @@
 #main-container{
     height: 100%;
     display: grid;
+    overflow-y: auto;
     /* grid-template-columns: repeat(1, minmax(10rem, 1fr)); */
-    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    /* grid-template-columns: repeat(1, minmax(200px, 1fr)); */
     /* grid-template-rows: repeat(6, minmax(10rem, 1fr)); */
     /* grid-template-rows: repeat(6, minmax(1/2fr, 1fr)); */
     grid-template-rows: 2fr 1fr 8fr 1fr;
@@ -116,17 +117,30 @@
     grid-area: main;
     height: 100%;
     display: grid;
-    grid-template-columns: minmax(200px, 1fr);
-    grid-template-rows: minmax(200px, 1fr);
+    /* grid-template-columns: minmax(200px, 1fr);
+    grid-template-rows: minmax(200px, 1fr); */
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
 #main-content-container{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-content: center;
     height: 100%;
     box-shadow: 1rem 0 1rem 0;
-    border-radius: 1rem;
+    border-radius: 1rem; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr;
+    grid-template-areas:
+                                    "heading"
+                                    "main-content";
+    overflow-y: auto;
+}
+
+.empty-home-header {
+    grid-area: heading;
 }
 
 
@@ -143,6 +157,18 @@
     /* justify-content: space-between; */
     justify-content: space-between;
     padding-left: .2rem;
+    grid-area: heading;
+}
+
+#equipLink1 {
+    grid-area: heading;
+}
+
+.map-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
 }
 
 
@@ -168,6 +194,7 @@
 
 #main-content--Display--area {
     /* background: green; */
+    grid-area: main-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,8 +202,17 @@
     width:100%;
     height: 100%;
     /* border: solid .2rem #000; */
-    border-radius: .8rem;
+    /* border-radius: .8rem;
+    overflow-y: auto; */
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    justify-items: center;
+    align-items: center; */
+    height: 100%;
 }
+
+
 
 #order-form-heading{
     background: #6F263D;
@@ -211,9 +247,10 @@
 
 
 #report-image {
-    max-width: 75%;
+    max-width: 80%;
     width: 70%;
     height: auto;
+    max-height: 90%;
 }
 
 #input-button{
@@ -241,11 +278,12 @@ a.map  {
 }
 
 .dynamic-image {
-    width: 50%;
+    width: 70%;
     height: auto;
-    max-height: 90%;
+    max-height: 100%;
     border-radius: .3rem;
     box-shadow: .2rem .2rem .2rem .2rem;
+    grid-area: main-content;
 }
 
 .equipment-image {
@@ -380,9 +418,11 @@ ul.report-style {
         width: 100%;
           display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr 1fr;
         grid-template-areas: 
                                           "sidebar main main main"
+                                          "sidebar main main main";
+        height: 100%;
     }
 
     
@@ -401,6 +441,9 @@ ul.report-style {
         border: none;
         height: 100%;
         width: 100%;
+        align-items: center;
+        justify-content: center;
+        /* max-height: 40rem; */
     }
 
     /* .map {
@@ -417,6 +460,11 @@ ul.report-style {
         display: none;
     }
 
+    
+    #home-button {
+        display: none;
+    }
+
     #sidebar--links {
         grid-area: sidebar;
         display: flex;
@@ -425,6 +473,7 @@ ul.report-style {
         align-self: center;
         height: 100%;
         background-color: #6F263D;
+        /* max-height: 38rem; */
     }
 
 
@@ -449,4 +498,25 @@ ul.report-style {
         width: 100%;
         height: 100%;
     }
+}
+
+
+@media (min-width: 530px) and (min-height: 310px){
+    .input-styles {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    li a {
+        font-size: 2rem;
+    }
+
+    ul.main--content__sidebar-link--container a.report-type{
+    font-size: 1.4rem;
+}
+
+.order-styles {
+    height: 70%;
+}
 }

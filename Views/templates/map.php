@@ -3,8 +3,12 @@
      * The placeholder content that will fill the main web page template
      * when the user wants to visits the Map page
      */
-    $placeholderHeader = "<a class='mobile-m map' href='#'>Directions</a>
-    <a  class='mobile-m map ben-frank-map' href='#'>Map</a>";
+    $placeholderHeader = "
+    <div class='map-header' id='equip-link'>
+        <a class='mobile-m map' href='#'>Directions</a>
+        <a  class='mobile-m map ben-frank-map' href='#'>Map</a>
+    </div>
+    ";
     $placeholder1 = "<li><a id='desktop-map' class='' href='#'>Directions</a></li>";
     $placeholder2 = "<li><a class='ben-frank-map' href='#'>Map</a></li>";
     $placeholder3 = "<li><a href='/?location=home'>Home</a></li>";

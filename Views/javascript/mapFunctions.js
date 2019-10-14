@@ -14,6 +14,7 @@ let displayMap = false;
 
 /* Event Handlers*/
 const showMap = (event) => {
+    mainContentDisplayAreaMap.innerHTML = "";
     console.log(mainContentDisplayAreaMap);
     if (!displayMap) {
         console.log("adding Map");
