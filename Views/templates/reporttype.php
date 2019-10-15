@@ -4,7 +4,7 @@
      * when the user wants to visit the home page
      */
 $placeholderHeader = "
-            <div id='equip-link1'>
+            <div class='temp-header' id='equip-link1'>
             <h1 id='report-type-heading'>Types Of Reports Offered</h1>
             <ul class='report-style' id='equipLink'>
                     <li class='equipmentLink'><a class='r101' href='#'>101 Student Statistics</a></li>

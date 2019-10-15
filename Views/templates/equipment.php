@@ -1,5 +1,5 @@
 <?php 
-$placeholderHeader = "<ul id='equipLink'>
+$placeholderHeader = "<ul class='temp-header' id='equipLink'>
                     <li class='equipmentLink'><a class='Scan' href='#'>Scantron OpScan6</a></li>
                     <li class='equipmentLink'><a class='OMR' href='#'>Remark Classic OMR v5.0</a></li>
                     <li class='equipmentLink'><a class='EliteDesk' href='#'>HP EliteDesk 800 G1</a></li>

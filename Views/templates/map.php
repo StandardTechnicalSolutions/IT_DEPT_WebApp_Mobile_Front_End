@@ -4,9 +4,11 @@
      * when the user wants to visits the Map page
      */
     $placeholderHeader = "
-    <div class='map-header' id='equip-link'>
-        <a class='mobile-m map' href='#'>Directions</a>
-        <a  class='mobile-m map ben-frank-map' href='#'>Map</a>
+    <div class='temp-header'>
+        <div class='map-headers'>
+            <a class='mobile-m map' href='#'>Directions</a>
+            <a  class='mobile-m map ben-frank-map' href='#'>Map</a>
+        </div>
     </div>
     ";
     $placeholder1 = "<li><a id='desktop-map' class='' href='#'>Directions</a></li>";
@@ -18,6 +20,6 @@
     $placeholder7 = "<li><a href='/?location=orderForm'>Order Scantron</a></li>";
     $placeholder8 = "<li><a href='/?location=reporttype'>Report Type</a></li>";
 
-    $content_placeholder = "";
+    // $content_placeholder = "<div id='display-map-area'></div>";
     $extraJsFunction = "javascript/mapFunctions.js";
-    $apiScripts = "<script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAaiiLsJ0gLod9K76eZZwh5E1RirZajhRk'> </script>";
+    $apiScripts = "<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAaiiLsJ0gLod9K76eZZwh5E1RirZajhRk'> </script>";

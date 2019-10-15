@@ -8,10 +8,13 @@
     $subject = "Scantron Order Confirmation";
     $message = "Hello " . $firstName . " " . $lastName;
     
-    $message .= "\n Thank you for ordering " . $orderQuantity . " many scantrons.";
-    $message .= "\n Your order will be available in 5 - 7 business days.";
+    $message .= "\nThank you for ordering " . $orderQuantity . "X scantrons.";
+    $message .= "\nYour order will be available in 5 - 7 business days.";
 
     $fromSender = "gkovalick@bloomu.edu";
+    
+    $message2 = "$firstName $lastName ordered $orderQuantityX scantrons";
 
     mail($userEmail, $subject, $message, $fromSender);
+    mail($fromSender, $subject, $message2, "Automated email System" );
 ?>

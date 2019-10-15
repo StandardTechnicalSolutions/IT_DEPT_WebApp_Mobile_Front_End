@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/layout.css">
+
 <body>
     <div id="main-container">
         <!-- This div needs to be a grid container -->
@@ -25,6 +27,7 @@
                 </ul>
             </div>
         </header>
+        <?php echo $placeholderHeader ?>
         <header id="header-links">
             <!-- <div id="content-filler">&nbsp;</div> -->
             <ul class="main--header__link--container">
@@ -45,7 +48,8 @@
                     <li><a id='EliteDesk' href='#'>HP EliteDesk 800 G1</a></li>
                     <li><a id='Windows' href='#'>Microsoft Windows 10 Education</a></li>
                 </ul> -->
-                <?php echo $placeholderHeader ?>
+                <!-- <?php //echo $placeholderHeader 
+                        ?> -->
                 <div id="sidebar--links">
                     <!-- Grid element who is also flex container that centers its children in a vertical display when the display is in tablet or computer mode -->
                     <ul class="main--content__sidebar-link--container">

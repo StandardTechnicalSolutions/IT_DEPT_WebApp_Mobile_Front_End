@@ -3,7 +3,7 @@
      * The placeholder content that will fill the main web page template
      * when the user wants to visit the home page
      */
-    $placeholderHeader = "";
+    $placeholderHeader = "<div class='temp-header'></div>";
     $placeholder1 = "<li><a href='/?location=home'>Home</a></li>";
     $placeholder2 = "<li><a href='/?location=equipment'>Equipment</a></li>";
     $placeholder3 = "<li><a href='/?location=map'>Map</a></li>";
