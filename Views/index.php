@@ -33,7 +33,7 @@ if (isset($get)) {
             require __DIR__ . "/webAppTemplate.php";
             break;
     }
-}  else if($post === "email"){
+}  else if($post){
     require __DIR__ . "/EmailUser.php";
     require __DIR__ . "/templates/emailSent.php";
     require __DIR__ . "/webAppTemplate.php";
