@@ -1,5 +1,6 @@
 <?php
 $get = $_GET["location"];
+$post = $_POST["location"];
 
 if (isset($get)) {
     switch ($get) {
@@ -37,8 +38,8 @@ if (isset($get)) {
             require __DIR__ . "/webAppTemplate.php";
             break;
     }
-}  else if (isset($_POST["email"])){
-    require __DIR__ . "/EmailUser.php";
+}  else if (isset($post)){
+    require __DIR__ . "/templates/EmailUser.php";
     require __DIR__ . "/templates/emailSent.php";
     require __DIR__ . "/webAppTemplate.php";
 }
