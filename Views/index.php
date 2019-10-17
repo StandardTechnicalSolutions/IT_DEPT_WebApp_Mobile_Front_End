@@ -28,7 +28,7 @@ if (isset($get)) {
             require __DIR__ . "/webAppTemplate.php";
             break;
         case "email":
-            require __DIR__ . "EmailUser.php";
+            require __DIR__ . "/templates/EmailUser.php";
             require __DIR__ . "/templates/emailSent.php";
             require __DIR__ . "/webAppTemplate.php";
             break;
