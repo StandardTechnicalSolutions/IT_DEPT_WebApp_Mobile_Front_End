@@ -28,22 +28,17 @@ if (isset($get)) {
             require __DIR__ . "/templates/reporttype.php";
             require __DIR__ . "/webAppTemplate.php";
             break;
-        case "email":
-            require __DIR__ . "/templates/EmailUser.php";
-            require __DIR__ . "/templates/emailSent.php";
-            require __DIR__ . "/webAppTemplate.php";
-            break;
         default:
             require __DIR__ . "/templates/error404.php";
             require __DIR__ . "/webAppTemplate.php";
             break;
     }
-}  else if (isset($post)){
-    require __DIR__ . "/templates/EmailUser.php";
+}  else if($post === "email"){
+    require __DIR__ . "/EmailUser.php";
     require __DIR__ . "/templates/emailSent.php";
     require __DIR__ . "/webAppTemplate.php";
 }
-else {
+ else {
     require __DIR__ . "/templates/home.php";
     require __DIR__ . "/webAppTemplate.php";
 }
