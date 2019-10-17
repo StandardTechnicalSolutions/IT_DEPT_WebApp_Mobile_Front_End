@@ -9,6 +9,6 @@
     $placeholder6 = "<li><a href='/tss/exss/?location=reporttype'>Report Type</a></li>";
     $content_placeholder = '
         <h1 id="order-form-heading">Thank You For Ordering!!!</h2>
-        <a id="home-button" href="?location=home">Home</a>
+        <a id="home-button" href="/tss/exss/?location=home">Home</a>
     ';
     $extraJsFunction = "";
