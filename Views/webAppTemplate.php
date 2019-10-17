@@ -78,7 +78,7 @@
         </footer>
     </div>
     <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaiiLsJ0gLod9K76eZZwh5E1RirZajhRk"> </script> -->
-    <script src="tss/exss/javascript/app.js"></script>
+    <script src="javascript/app.js"></script>
     <script src=<?php echo $extraJsFunction ?>></script>
     <?php echo $apiScripts ?>
 </body>

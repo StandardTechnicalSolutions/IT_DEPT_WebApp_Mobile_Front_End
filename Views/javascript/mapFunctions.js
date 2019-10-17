@@ -27,7 +27,7 @@ const showMap = (event) => {
             }
         )
         //const image = "https://s3.amazonaws.com/connectsports-prod/college_pics/photo-357.jpg";
-        const image = "/images/Clipboard.jpg";
+        //const image = "/images/Clipboard.jpg";
         const mapMarker = new google.maps.Marker({
             position: latLng,
             map: map,
@@ -38,7 +38,7 @@ const showMap = (event) => {
 };
 
 const showBenFrankMap = (event) => {
-    image.src = "/images/exsslayout.png";
+    image.src = "tss/exss/images/exsslayout.png";
     image.alt="Map Of Benjamin Franklin Hall";
     mainContentDisplayArea.innerHTML = "";
     mainContentDisplayArea.appendChild(image);
