@@ -13,6 +13,6 @@
 
     $content_placeholder = "
     <h1 id='order-form-heading'>Error 404 Page Not Found</h1>
-    <img class='dynamic-image' src='tss/exss/images/Hello_Lionel.jpg'>
+    <img class='dynamic-image' src='images/Hello_Lionel.jpg'>
     ";
     $extraJsFunction = "";
