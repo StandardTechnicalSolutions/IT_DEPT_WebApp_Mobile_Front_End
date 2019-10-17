@@ -38,7 +38,7 @@ const showMap = (event) => {
 };
 
 const showBenFrankMap = (event) => {
-    image.src = "tss/exss/images/exsslayout.png";
+    image.src = "images/exsslayout.png";
     image.alt="Map Of Benjamin Franklin Hall";
     mainContentDisplayArea.innerHTML = "";
     mainContentDisplayArea.appendChild(image);

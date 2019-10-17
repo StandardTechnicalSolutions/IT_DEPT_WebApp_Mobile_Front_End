@@ -39,38 +39,38 @@ image.id = "report-image"
 
 /*  EVENT HANDLERS */
 const addReportImage1 = (event) => {
-    image.src = "/images/101_report.jpg";
+    image.src = "images/101_report.jpg";
     reportContentArea.innerHTML = "";
     reportContentArea.appendChild(image);
 };
 const addReportImage2 = (event) => {
-    image.src = "/images/103_report.jpg";
+    image.src = "images/103_report.jpg";
     reportContentArea.innerHTML = "";
     reportContentArea.appendChild(image);
 };
 const addReportImage3 = (event) => {
-    image.src = "/images/105_report.jpg";
+    image.src = "images/105_report.jpg";
     reportContentArea.innerHTML = "";
     reportContentArea.appendChild(image);
 }
 const addReportImage4 = (event) => {
-    image.src = "/images/150_report.jpg";
+    image.src = "images/150_report.jpg";
     image.className = `${image.className} restrict-height`
     reportContentArea.innerHTML = "";
     reportContentArea.appendChild(image);
 }
 const addReportImage5 = (event) => {
-    image.src = "/images/201_report.jpg";
+    image.src = "images/201_report.jpg";
     reportContentArea.innerHTML = "";
     reportContentArea.appendChild(image);
 }
 const addReportImage6 = (event) => {
-    image.src = "/images/204_report.jpg";
+    image.src = "images/204_report.jpg";
     reportContentArea.innerHTML = "";
     reportContentArea.appendChild(image);
 }
 const addReportImage7 = (event) => {
-    image.src = "/images/310_report.jpg";
+    image.src = "images/310_report.jpg";
     reportContentArea.innerHTML = "";
     reportContentArea.appendChild(image);
 }
