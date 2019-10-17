@@ -4,12 +4,12 @@
      * when the user wants to visit the home page
      */
     $placeholderHeader = "<div class='temp-header'></div>";
-    $placeholder1 = "<li><a href='/?location=home'>Home</a></li>";
-    $placeholder2 = "<li><a href='/?location=equipment'>Equipment</a></li>";
-    $placeholder3 = "<li><a href='/?location=map'>Map</a></li>";
-    $placeholder4 = "<li><a href='/?location=contact'>Contact</a></li>";
-    $placeholder5 = "<li><a href='/?location=orderForm'>Order Scantron</a></li>";
-    $placeholder6 = "<li><a href='/?location=reporttype'>Report Type</a></li>";
+    $placeholder1 = "<li><a href='/tss/exss/?location=home'>Home</a></li>";
+    $placeholder2 = "<li><a href='/tss/exss/?location=equipment'>Equipment</a></li>";
+    $placeholder3 = "<li><a href='/tss/exss/?location=map'>Map</a></li>";
+    $placeholder4 = "<li><a href='/tss/exss/?location=contact'>Contact</a></li>";
+    $placeholder5 = "<li><a href='/tss/exss/?location=orderForm'>Order Scantron</a></li>";
+    $placeholder6 = "<li><a href='/tss/exss/?location=reporttype'>Report Type</a></li>";
 
     $content_placeholder = "
         <h3 class='contact-styles'>Bloomsburg University Exam Scanning Services</h1>

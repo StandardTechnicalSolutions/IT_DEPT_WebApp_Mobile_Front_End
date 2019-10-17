@@ -27,4 +27,4 @@ $placeholderHeader = "
     $placeholder8 = "<li><a class='report-type r320' href='#'>320 Test Item Statistics</a></li>";
 
     $content_placeholder = "";
-    $extraJsFunction = "/javascript/reporttype.js";
+    $extraJsFunction = "javascript/reporttype.js";

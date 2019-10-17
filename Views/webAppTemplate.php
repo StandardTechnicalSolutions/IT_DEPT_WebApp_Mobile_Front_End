@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>BU IT DEPT</title>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/layout.css">
-
+     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/layout.css"> 
 <body>
     <div id="main-container">
         <!-- This div needs to be a grid container -->
@@ -19,11 +17,11 @@
                 <a id="home" href="/?location=home"><img src="images/logo.png"></a>
                 <a id="bu-main-menu"><span>&#9776</span></a>
                 <ul id="tablet-desktop-links">
-                    <li><a href="/?location=equipment">Equipment</a></li>
-                    <li><a href="/?location=map">Map</a></li>
-                    <li><a href="/?location=contact">Contact</a></li>
-                    <li><a href="/?location=orderForm">Order Form</a></li>
-                    <li><a href="/?location=reporttype">Report Type</a></li>
+                    <li><a href="/tss/exss/?location=equipment">Equipment</a></li>
+                    <li><a href="/tss/exss/?location=map">Map</a></li>
+                    <li><a href="/tss/exss/?location=contact">Contact</a></li>
+                    <li><a href="/tss/exss/?location=orderForm">Order Form</a></li>
+                    <li><a href="/tss/exss/?location=reporttype">Report Type</a></li>
                 </ul>
             </div>
         </header>
@@ -32,11 +30,11 @@
             <!-- <div id="content-filler">&nbsp;</div> -->
             <ul class="main--header__link--container">
                 <!-- Flex child who is centered during mobile who will also be a flex container that centers its children when the mobile display is active -->
-                <li><a href="/?location=equipment">Equipment</a></li> <!-- Flex child who is centered during the mobile display and is vertically layed out, when the display is larger than mobile then this items will be displayed with space between and it will layed out horizontally -->
-                <li><a href="/?location=map">Maps</a></li> <!-- Flex child who is centered during the mobile display and is vertically layed out, when the display is larger than mobile then this items will be displayed with space between and it will layed out horizontally -->
-                <li><a href="/?location=contact">Contact</a></li> <!-- Flex child who is centered during the mobile display and is vertically layed out, when the display is larger than mobile then this items will be displayed with space between and it will layed out horizontally -->
-                <li><a href="/?location=orderForm">Order Form</a></li>
-                <li><a href="/?location=reporttype">Report Type</a></li>
+                <li><a href="/tss/exss/?location=equipment">Equipment</a></li> <!-- Flex child who is centered during the mobile display and is vertically layed out, when the display is larger than mobile then this items will be displayed with space between and it will layed out horizontally -->
+                <li><a href="/tss/exss/?location=map">Maps</a></li> <!-- Flex child who is centered during the mobile display and is vertically layed out, when the display is larger than mobile then this items will be displayed with space between and it will layed out horizontally -->
+                <li><a href="/tss/exss/?location=contact">Contact</a></li> <!-- Flex child who is centered during the mobile display and is vertically layed out, when the display is larger than mobile then this items will be displayed with space between and it will layed out horizontally -->
+                <li><a href="/tss/exss/?location=orderForm">Order Form</a></li>
+                <li><a href="/tss/exss/?location=reporttype">Report Type</a></li>
         </header>
         <!-- Grid element who is also a grid container. When the display grows larger than normal then this grid container will be in use -->
         <main id="main-content">
@@ -80,7 +78,7 @@
         </footer>
     </div>
     <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaiiLsJ0gLod9K76eZZwh5E1RirZajhRk"> </script> -->
-    <script src="/javascript/app.js"></script>
+    <script src="tss/exss/javascript/app.js"></script>
     <script src=<?php echo $extraJsFunction ?>></script>
     <?php echo $apiScripts ?>
 </body>
