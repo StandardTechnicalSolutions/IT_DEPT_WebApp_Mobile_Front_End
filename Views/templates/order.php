@@ -13,7 +13,7 @@
 
     $content_placeholder = "
         <h1 id='order-form-heading'>Scantron Order Form</h1>
-         <form class='order-styles' action='/?location=email' method='POST'>
+         <form class='order-styles' action='tss/exss/?location=email' method='POST'>
     <input class='input-styles' type='text' name='fName' placeholder='First Name' required>
     <input class='input-styles' type='text' name='lName' placeholder='Last Name' required>
     <input class='input-styles' type='text' name='orderQ' placeholder='Order Quantity' required>
