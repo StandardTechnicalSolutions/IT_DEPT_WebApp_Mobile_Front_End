@@ -14,7 +14,7 @@
         <header class="main--header" id="header">
             <!-- This header element is flex container and it is also assigned grid-area: header -->
             <div id="bu-logo">
-                <a id="home" href="/tsss/exss/?location=home"><img src="images/logo.png"></a>
+                <a id="home" href="/tss/exss/?location=home"><img src="images/logo.png"></a>
                 <a id="bu-main-menu"><span>&#9776</span></a>
                 <ul id="tablet-desktop-links">
                     <li><a href="/tss/exss/?location=equipment">Equipment</a></li>
