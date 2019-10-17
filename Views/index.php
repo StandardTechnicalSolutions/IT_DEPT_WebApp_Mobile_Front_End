@@ -30,7 +30,7 @@ if (isset($get)) {
             break;
         case "email":
             require __DIR__ . "/EmailUser.php";
-            require __DIR__ . "/templates/error404.php";
+            require __DIR__ . "/templates/emailSent.php";
             require __DIR__ . "/webAppTemplate.php";
             break;
         default:
