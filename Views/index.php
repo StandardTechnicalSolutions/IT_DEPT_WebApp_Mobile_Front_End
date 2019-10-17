@@ -28,6 +28,11 @@ if (isset($get)) {
             require __DIR__ . "/templates/reporttype.php";
             require __DIR__ . "/webAppTemplate.php";
             break;
+        case "email":
+            require __DIR__ . "/EmailUser.php";
+            require __DIR__ . "/templates/error404.php";
+            require __DIR__ . "/webAppTemplate.php";
+            break;
         default:
             require __DIR__ . "/templates/error404.php";
             require __DIR__ . "/webAppTemplate.php";
